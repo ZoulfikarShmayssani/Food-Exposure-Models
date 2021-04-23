@@ -1,1 +1,3 @@
-# Food-Exposure-Models
+# Detecting Food Exposure
+In this respository, we share models that we have trained to automatically detect whether an image contains food exposure or not. An image is considered food exposure if it contains anything related to food or beverages such as food items, food outlets, food advertisments, etc. Our models were trained using a large dataset that was scrapped from the Web using Google and Bing image search. Due to the large size of the dataset and since we don't own the images, we will not be sharing it here in the repository, however if you are interested in acquiring the dataset, please drop us an email and we will happy to share it with you for research purposes.
+The repository however includes all the code that we used to scrap the Web and construct the dataset. It also contains all the code for the models we trained to detect food exposure as well as the trained models themselves. The models are based on MobileNet v2. 
